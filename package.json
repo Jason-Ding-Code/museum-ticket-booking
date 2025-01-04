@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "data.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+ "scripts": {
+  "build": "mkdir -p public && cp -r *.html *.css *.js public/"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,3 +15,5 @@
     "express-validator": "^7.2.1"
   }
 }
+
+
