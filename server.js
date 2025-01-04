@@ -253,12 +253,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// 添加data.js路由
-app.get('/data.js', (req, res) => {
-  res.set('Content-Type', 'application/javascript');
-  res.sendFile(path.join(__dirname, 'data.js'));
-});
-
 module.exports = app;
 
 // 错误处理
