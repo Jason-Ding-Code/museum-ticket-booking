@@ -185,12 +185,12 @@ async function getRemainingTickets(museum, date) {
     const bookings = await getBookingsForDate(museum, date);
     const bookedTickets = bookings.reduce((sum, booking) => sum + booking.tickets, 0);
     
-    const remainingTickets = Math.max(0, dateData.Avaliable - bookedTickets);
+    const remainingTickets = Math.max(0, dateData.available - bookedTickets);
     
     console.log('剩余票数计算详情：');
     console.log(`- 博物馆: ${museum}`);
     console.log(`- 日期: ${date}`);
-    console.log(`- 每日可用票数: ${dateData.Avaliable}`);
+    console.log(`- 每日可用票数: ${dateData.available}`);
     console.log(`- 已预订票数: ${bookedTickets}`); 
     console.log(`- 剩余票数: ${remainingTickets}`);
     
@@ -232,7 +232,7 @@ async function getBookingsForDate(museum, date) {
     // 查找指定博物馆和日期的可用票数
     const museumData = museums.find(m => m.name === museum);
     const dateData = museumData?.ticket_dates.find(d => d.date === date);
-    const availableTickets = dateData?.Avaliable || 0;
+    const availableTickets = dateData?.available || 0;
     
     const remainingTickets = availableTickets - totalTickets;
     console.log(`Remaining tickets for ${museum} on ${date}: ${remainingTickets} (${availableTickets} available)`);
