@@ -246,11 +246,17 @@ async function getBookingsForDate(museum, date) {
 }
 
 // 静态文件服务
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // 处理所有路由
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// 添加data.js路由
+app.get('/data.js', (req, res) => {
+  res.set('Content-Type', 'application/javascript');
+  res.sendFile(path.join(__dirname, 'data.js'));
 });
 
 module.exports = app;

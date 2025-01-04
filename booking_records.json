@@ -5,72 +5,56 @@
       "museum": "故宫博物院",
       "date": "2025-01-01T00:00:00.000Z",
       "tickets": 1,
-      "timestamp": "2025-01-03T23:52:00.013Z",
-      "bookingNumber": "BK-1735948320014"
+      "timestamp": "2025-01-04T19:50:56.460Z",
+      "bookingNumber": "BK-1736020256460"
     },
     {
       "name": "丁文杰",
       "museum": "故宫博物院",
       "date": "2025-01-01T00:00:00.000Z",
       "tickets": 1,
-      "timestamp": "2025-01-03T23:52:09.319Z",
-      "bookingNumber": "BK-1735948329320"
-    },
-    {
-      "name": "丁文杰",
-      "museum": "故宫博物院",
-      "date": "2025-01-02T00:00:00.000Z",
-      "tickets": 1,
-      "timestamp": "2025-01-03T23:55:08.936Z",
-      "bookingNumber": "BK-1735948508937"
+      "timestamp": "2025-01-04T19:51:19.672Z",
+      "bookingNumber": "BK-1736020279673"
     },
     {
       "name": "丁文杰",
       "museum": "国家博物馆",
       "date": "2025-01-20T00:00:00.000Z",
       "tickets": 1,
-      "timestamp": "2025-01-03T23:58:16.804Z",
-      "bookingNumber": "BK-1735948696805"
+      "timestamp": "2025-01-04T19:51:33.404Z",
+      "bookingNumber": "BK-1736020293404"
     },
     {
       "name": "丁文杰",
       "museum": "国家博物馆",
-      "date": "2025-01-20T00:00:00.000Z",
-      "tickets": 1,
-      "timestamp": "2025-01-03T23:58:29.507Z",
-      "bookingNumber": "BK-1735948709509"
+      "date": "2025-01-21T00:00:00.000Z",
+      "tickets": 2,
+      "timestamp": "2025-01-04T19:51:57.136Z",
+      "bookingNumber": "BK-1736020317137"
     },
     {
       "name": "丁文杰",
       "museum": "国家博物馆",
       "date": "2025-01-21T00:00:00.000Z",
       "tickets": 1,
-      "timestamp": "2025-01-03T23:58:52.111Z",
-      "bookingNumber": "BK-1735948732113"
+      "timestamp": "2025-01-04T19:52:28.336Z",
+      "bookingNumber": "BK-1736020348337"
     },
     {
       "name": "丁文杰",
       "museum": "国家博物馆",
       "date": "2025-01-21T00:00:00.000Z",
       "tickets": 1,
-      "timestamp": "2025-01-03T23:59:46.588Z",
-      "bookingNumber": "BK-1735948786589"
+      "timestamp": "2025-01-04T20:01:53.807Z",
+      "bookingNumber": "BK-1736020913808"
     },
     {
       "name": "丁文杰",
-      "museum": "故宫博物院",
-      "date": "2025-01-03T00:00:00.000Z",
+      "museum": "国家博物馆",
+      "date": "2025-01-21T00:00:00.000Z",
       "tickets": 1,
-      "timestamp": "2025-01-04T00:37:43.600Z",
-      "bookingNumber": "BK-1735951063600"
-    },
-    {
-      "name": "丁文杰",
-      "museum": "故宫博物院",
-      "date": "2025-01-01T00:00:00.000Z",
-      "tickets": 1,
-      "timestamp": "2025-01-04T01:15:58.566Z",
-      "bookingNumber": "BK-1735953358596"
+      "timestamp": "2025-01-04T20:02:34.004Z",
+      "bookingNumber": "BK-1736020954007"
     }
   ]
 }
