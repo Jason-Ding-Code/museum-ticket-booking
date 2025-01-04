@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="博物馆门票在线预订系统，提供故宫博物院、国家博物馆等热门博物馆的门票预订服务">
+    <meta name="keywords" content="博物馆,门票预订,故宫,国家博物馆,在线预订">
+    <title>博物馆门票预订系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>博物馆门票预订系统</h1>
+    </header>
+    
+    <main class="container">
+        <section aria-labelledby="booking-form-title">
+            <h2 id="booking-form-title" class="sr-only">门票预订表单</h2>
+            <form id="bookingForm" aria-label="门票预订表单">
+                <fieldset>
+                    <legend class="sr-only">预订信息</legend>
+                    
+                    <div class="form-group">
+                        <label for="name">姓名：</label>
+                        <input type="text" id="name" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="museumSelect">选择博物馆：</label>
+                        <select id="museumSelect" required aria-required="true">
+                            <option value="">请选择博物馆</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date">选择日期：</label>
+                        <input type="date" id="date" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tickets">票数：</label>
+                        <input type="number" id="tickets" min="1" max="2" value="1" required aria-required="true">
+                    </div>
+                    
+                    <button type="submit" aria-label="提交预订">提交预订</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section aria-labelledby="ticket-info-title">
+            <h2 id="ticket-info-title" class="sr-only">票务信息</h2>
+            <div class="ticket-info">
+                <p>剩余票数：<span id="remainingTickets">加载中...</span></p>
+            </div>
+        </section>
+
+        <section aria-labelledby="booking-results-title">
+            <h2 id="booking-results-title" class="sr-only">预订结果</h2>
+            <div id="result" role="alert"></div>
+        </section>
+
+        <section aria-labelledby="booking-records-title">
+            <h2 id="booking-records-title" class="sr-only">预订记录</h2>
+            <div id="bookingRecords"></div>
+        </section>
+
+        <section aria-labelledby="system-messages-title">
+            <h2 id="system-messages-title" class="sr-only">系统消息</h2>
+            <div id="message" role="status"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 博物馆票务系统. 保留所有权利。</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

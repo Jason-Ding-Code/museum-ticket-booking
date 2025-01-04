@@ -1,0 +1,40 @@
+{
+  "museums": [
+    {
+      "name": "故宫博物院",
+      "totalTickets": 6,
+      "ticket_dates": [
+        {
+          "date": "2025-01-01",
+          "Avaliable": 2
+        },
+        {
+          "date": "2025-01-02",
+          "Avaliable": 2
+        },
+        {
+          "date": "2025-01-03",
+          "Avaliable": 2
+        }
+      ]
+    },
+    {
+      "name": "国家博物馆",
+      "totalTickets": 6,
+      "ticket_dates": [
+        {
+          "date": "2025-01-20",
+          "Avaliable": 2
+        },
+        {
+          "date": "2025-01-21",
+          "Avaliable": 2
+        },
+        {
+          "date": "2025-01-22",
+          "Avaliable": 2
+        }
+      ]
+    }
+  ]
+}

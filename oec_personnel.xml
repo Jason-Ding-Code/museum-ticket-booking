@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personnel>
+    <employee>
+        <name>丁文杰</name>
+        <department>IT</department>
+        <position>工程师</position>
+    </employee>
+    <employee>
+        <name>李四</name>
+        <department>财务</department>
+        <position>会计师</position>
+    </employee>
+    <employee>
+        <name>王五</name>
+        <department>市场</department>
+        <position>经理</position>
+    </employee>
+    <employee>
+        <name>赵六</name>
+        <department>运营</department>
+        <position>主管</position>
+    </employee>
+    <employee>
+        <name>陈七</name>
+        <department>人力资源</department>
+        <position>专员</position>
+    </employee>
+</personnel>
